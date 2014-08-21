@@ -2,7 +2,7 @@
 var apiVersion = 'v29.0',
     clientId = '3MVG9xOCXq4ID1uHqtcfVtQFzLGxVc7Y.sk7BvcuJay6Sl8vM_GqWYTUZDilmmixSmCgjmYK1jN39bjSuFSGK',
     loginUrl = 'https://login.salesforce.com/',
-    redirectURI = "https://localhost:3000/oauthcallback.html",
+    redirectURI = "https://guarded-caverns-7968.herokuapp.com/oauthcallback.html",
     proxyURL = 'http://localhost:3000/proxy/',
     client = new forcetk.Client(clientId, loginUrl, proxyURL);
 
